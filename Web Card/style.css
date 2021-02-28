@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%)
+
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    /*background-image: url("bg-pattern-top.svg");
+    background-image: url("bg-pattern-bottom.svg");*/
+}
+
+.back1{
+    position: fixed;
+    margin: -600px 0px 0px -380px;
+}
+
+.back2{
+    position: fixed;
+    margin: 220px 0px 0px 640px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.content{
+    height: 380px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0px solid black;
+    margin: 120px auto 0 auto;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+}
+.back{
+    border-radius: 20px 20px 0px 0px;
+    position:relative;
+}
+
+
+.poza{
+    position:relative;
+    margin-top:-50px;
+    border: 5px solid white;
+    border-radius: 100px;
+}
+
+
+.nume-varsta{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin: 20px 50px 10px 110px;
+    padding:0px 50px 0px 0px;
+}
+
+.nume-varsta, .numar{
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+.varsta{
+    margin-left: 15px;
+}
+
+.oras{
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+
+}
+
+
+.numere{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+}
+
+.categorie{
+    display: block;
+    margin-top: 10px;
+    font-size:11px;
+    letter-spacing: 1px;
+}
